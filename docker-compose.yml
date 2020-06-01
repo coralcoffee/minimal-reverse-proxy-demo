@@ -10,7 +10,6 @@ services:
         - weather-report
         - temperature-service
         - precip-service
-        - aspnet-sample
     volumes:
       - ./reverse_proxy/nginx.conf:/etc/nginx/nginx.conf
     ports:
